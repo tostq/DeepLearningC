@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/6/30 21:07:01。
+     1>项目“E:\Code\VS2010 code\CNN\CNN\CNN.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\CNN.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cnn.cpp
+         cnn.cpp
+     1>e:\code\vs2010 code\cnn\cnn\cnn.cpp(58): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\vs2010 code\cnn\cnn\cnn.cpp(151): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\vs2010 code\cnn\cnn\cnn.cpp(193): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\code\vs2010 code\cnn\cnn\cnn.cpp(225): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\code\vs2010 code\cnn\cnn\cnn.cpp(291): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\vs2010 code\cnn\cnn\cnn.cpp(537): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\vs2010 code\cnn\cnn\cnn.cpp(620): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\VS2010 code\CNN\Debug\CNN.exe" /NOLOGO libCbc.lib libCgl.lib libClp.lib libCoinUtils.lib libOsi.lib libOsiClp.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_nonfree2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CNN.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Code\VS2010 code\CNN\Debug\CNN.pdb" /HEAP:"2000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\VS2010 code\CNN\Debug\CNN.lib" /MACHINE:X86 Debug\cnn.obj
+         Debug\main.obj
+         Debug\mat.obj
+         Debug\minst.obj
+         LINK : 没有找到 E:\Code\VS2010 code\CNN\Debug\CNN.exe 或上一个增量链接没有生成它；正在执行完全链接
+         CNN.vcxproj -> E:\Code\VS2010 code\CNN\Debug\CNN.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Code\VS2010 code\CNN\Debug\CNN.exe;#1" /manifest Debug\CNN.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CNN.unsuccessfulbuild”。
+         正在对“Debug\CNN.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Code\VS2010 code\CNN\CNN\CNN.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.36
