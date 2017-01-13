@@ -8,12 +8,8 @@
 //英特尔处理器和其他低端机用户必须翻转头字节。  
 int ReverseInt(int i)   
 {  
-	unsigned char ch1, ch2, ch3, ch4;  
-	ch1 = i & 255;  
-	ch2 = (i >> 8) & 255;  
-	ch3 = (i >> 16) & 255;  
-	ch4 = (i >> 24) & 255;  
-	return((int) ch1 << 24) + ((int)ch2 << 16) + ((int)ch3 << 8) + ch4;  
+	unsigned char *split = (unsigned char*)&i;
+	return ((int)split[0])<<24 | split[1]<<16 | split[2]<<8 | split[3];
 }
 
 ImgArr read_Img(const char* filename) // 读入图像
